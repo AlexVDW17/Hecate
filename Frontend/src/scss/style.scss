@@ -1,0 +1,23 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles with default layout.
+// If you are going to use dark layout please comment next line
+// @import "~@coreui/coreui-pro/scss/coreui";
+
+// Import styles with dark layout
+// If you want to use dark layout uncomment next line
+@import "~@coreui/coreui-pro/scss/themes/dark/coreui-dark";
+
+@import "~jsoneditor/dist/jsoneditor.min.css";
+
+// Spinkit
+$spinkit-spinner-color: $body-color;
+@import "~spinkit/scss/spinkit.scss";
+
+@import "~@danielmoncada/angular-datetime-picker/assets/style/picker.min.css";
+
+@import "~ladda/dist/ladda-themeless.min.css";
+
+// If you want to add something do it here
+@import "custom";
